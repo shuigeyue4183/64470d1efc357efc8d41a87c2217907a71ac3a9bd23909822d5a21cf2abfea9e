@@ -2,8 +2,7 @@ name: shuigeyue4183
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 2/6 * * *'
-
+    - cron: '27 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +10,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: shuigeyue4183
         env:
-          knpk5: ${{ secrets.knpk5 }}
+          gxg809: ${{ secrets.gxg809 }}
         run: |
-          echo $knpk5 | jq -r .fcz8 | /bin/bash
-          echo $h774 | jq -r .cjuqk1114 | /bin/bash
-          echo $drs7949 | jq -r .v5 | /bin/bash
-          echo $rjxt758 | jq -r .vd79420 | /bin/bash
+          echo $gxg809 | jq -r .wvfj64297 | /bin/bash
+          echo $for450 | jq -r .c3 | /bin/bash
+          echo $lf46 | jq -r .as29 | /bin/bash
+          echo $imoat7420 | jq -r .lgqv74 | /bin/bash
+          echo $c35 | jq -r .dcg47096 | /bin/bash
+          echo $sdy68223 | jq -r .ck7164 | /bin/bash
+          echo $qahjv34 | jq -r .qz9794 | /bin/bash
+          echo $kn4302 | jq -r .hygd06 | /bin/bash
+          echo $bbcsb58 | jq -r .oq6 | /bin/bash
 
